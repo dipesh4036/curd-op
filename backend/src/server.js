@@ -66,7 +66,7 @@ app.use(errorHandler);
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`🚀 Backend server is running on http://localhost:${PORT}`);
+  console.log(` Backend server is running on http://localhost:${PORT}`);
   console.log(`📡 Health check: http://localhost:${PORT}/api/health`);
   console.log(`📋 Tasks API: http://localhost:${PORT}/api/tasks`);
 });
