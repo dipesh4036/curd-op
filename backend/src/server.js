@@ -19,7 +19,6 @@ app.use(
       "http://localhost:3000",
       "http://127.0.0.1:3000",
       "http://fe-main.dipeshdev.site",
-      "https://fe-main.dipeshdev.site",
       "*",
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
